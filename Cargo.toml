@@ -1,0 +1,19 @@
+[package]
+name = "active_tx"
+version = "0.1.1"
+authors = ["Chris Holdt <4070267+Chris-Holdt@users.noreply.github.com>"]
+edition = "2018"
+
+description = "Activeledger Rust SDK Transaction build helper"
+repository = "https://github.com/activeledger/SDK-Rust-TxBuilder"
+homepage = "https://activeledger.io"
+readme = "Readme.md"
+keywords = ["activeledger", "dlt", "blockchain", "distributed", "ledger"]
+license-file = "LICENSE"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0.41"
+serde = "1.0.101"
+activeledger = "0.1.0"
